@@ -21,7 +21,10 @@ business success.
         </p>
         <div className="flex flex-col items-center md:flex-row md:items-center md:space-x-3">
   <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
-    Contact Me
+    <a href="#Footer">
+          Contact Me
+        </a>
+        {/* Contact Me */}
   </button>
   <a
     href={resume}
