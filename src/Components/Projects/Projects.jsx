@@ -1,8 +1,12 @@
-import React from "react";
-import ProjectCard from "./ProjectCard";
-import lms from "../../assets/lms.png";
 import chat from "../../assets/chat.png";
 import ecommerce from "../../assets/ecommerce.png";
+import inmed from "../../assets/inmed.png";
+
+import chatbot from "../../assets/chatbot.png";
+import rp from "../../assets/rp.png";
+
+import lms from "../../assets/lms.png";
+import ProjectCard from "./ProjectCard";
 
 const Projects = () => {
   return (
@@ -26,6 +30,30 @@ const Projects = () => {
           main="The Ecommerce application was implemented using MERN stack and it has the feature of admin, student roles so admin will add the courses and students will buy and manage them."
            projectUrl="https://ecommerce-shop-frontend-ue10.onrender.com"
            img={ecommerce}
+        />
+        <ProjectCard
+          title="Resource Planner"
+          main="It was a company project, Contributed to backend development by designing and enhancing modules for customer management,
+          skills, resources, departments, designations, activity tracking, and billing systems. Implemented features in the resources module for bill revision,
+          resource history management, and retrieval of resource profiles, as well as managing reporting manager assignments."
+           projectUrl="https://workforce.roxiler.com/"
+           img={rp}
+        />
+        <ProjectCard
+          title="Inmed"
+          main="It was a company project, Worked as part of the backend team on various InMed products. Implemented user registration features,
+          including email verification, onboarding emails, and dual verification using AWS SES.Added features such as subscription trial expiration notifications, utilizing cron jobs for 24/7 monitoring.
+          Developed product templates incorporating file download functionality and zip uploads to enhance user experience."
+           projectUrl="https://volumetry.studio.inmed.ai/"
+           img={inmed}
+        />
+        <ProjectCard
+          title="VAPT-GenAI Chatbot"
+          main="It was a company project, Developed FastAPI-based APIs with integrated WebSocket communication to invoke security
+          tools—nmap, ferox,owaspzap, and sqlmap—triggered by an LLM based on detected vulnerable endpoints and utilized Mongodb
+           for database management."
+           projectUrl=""
+           img={chatbot}
         />
       </div>
     </div>

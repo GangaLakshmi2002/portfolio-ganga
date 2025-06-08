@@ -1,17 +1,7 @@
-import React from "react";
-import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from "react-icons/fa";
-import { SiMongodb } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiNestjs } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { SiPython } from "react-icons/si";
-import { SiDjango } from "react-icons/si";
-import { SiDocker } from "react-icons/si";
+import { FaCss3, FaGitSquare, FaHtml5, FaJs, FaNode, FaReact } from "react-icons/fa";
 import { FaAws } from "react-icons/fa6";
-import { FaJava } from "react-icons/fa6";
-import { FaGitSquare } from "react-icons/fa";
-import { SiKubernetes } from "react-icons/si";
+import { SiDjango, SiDocker, SiExpress, SiKubernetes, SiMongodb, SiNestjs, SiPython, SiTailwindcss } from "react-icons/si";
 
 const languages = [
   { name: "English", level: 5 },
@@ -134,9 +124,9 @@ const Skills = () => {
           </div>
           <div className="flex flex-col items-center">
             <span className="p-3 bg-zinc-950 flex items-center rounded-2xl mb-1">
-              <FaJava color="#61DAFB" size={50} />
+              <FaNode color="#61DAFB" size={50} />
             </span>
-            <span className="text-md text-white font-semibold mb-2">Java</span>
+            <span className="text-md text-white font-semibold mb-2">Nodejs</span>
           </div>
           <div className="flex flex-col items-center">
             <span className="p-3 bg-zinc-950 flex items-center rounded-2xl mb-1">
